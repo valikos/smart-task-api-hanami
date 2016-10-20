@@ -1,0 +1,4 @@
+project=smart_task_api
+architecture=container
+test=rspec
+template=erb
