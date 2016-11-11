@@ -1,2 +1,4 @@
 /public/assets*
 /tmp
+pg_*.log
+.env*
