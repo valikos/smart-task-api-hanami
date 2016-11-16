@@ -102,6 +102,11 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 
+  config.include Rack::Test::Methods,  type: :request
+  config.include ApplicationHelpers,   type: :request
+  config.include RequestMethodHelpers, type: :request
+  config.include CreateAccountHelper,  type: :request
+
   config.before(:suite) do
     connection = DatabaseCleaner[:sequel, {:connection => Sequel.connect(ENV['DATABASE_URL'])}]
     connection.strategy = :truncation, { except: %w[account_statuses] }

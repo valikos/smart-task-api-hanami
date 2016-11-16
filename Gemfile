@@ -2,13 +2,14 @@ source 'https://rubygems.org'
 
 gem 'bundler'
 gem 'rake'
-gem 'hanami',       '~> 0.8'
-gem 'hanami-model', '~> 0.6'
+gem 'hanami',       '~> 0.8.0'
+gem 'hanami-model', '~> 0.6.0'
 gem 'rodauth'
 gem 'cors'
 gem 'jwt'
 gem 'bcrypt'
 gem 'pg'
+gem 'jsonapi-serializers'
 
 group :development do
   # Code reloading

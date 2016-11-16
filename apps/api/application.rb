@@ -1,5 +1,7 @@
 require 'hanami/helpers'
 require 'hanami/assets'
+require "#{Hanami.root}/apps/api/middlewares/rodauth"
+require "#{Hanami.root}/apps/api/helpers/authentication"
 
 module Api
   class Application < Hanami::Application
@@ -18,6 +20,7 @@ module Api
       #
       load_paths << [
         'controllers',
+        'serializers',
         'views'
       ]
 
@@ -79,6 +82,7 @@ module Api
       # Configure Rack middleware for this application
       #
       # middleware.use Rack::Protection
+      middleware.use ::Api::Rodauth
 
       # Default format for the requests that don't specify an HTTP_ACCEPT header
       # Argument: A symbol representation of a mime type, default to :html
@@ -95,7 +99,7 @@ module Api
       # Argument: Symbol, which represent the format of the mime type (only `:json` is supported)
       #           Object, the parser
       #
-      # body_parsers :json
+      body_parsers :json
 
       # When it's true and the router receives a non-encrypted request (http),
       # it redirects to the secure equivalent resource (https). Default disabled.
@@ -106,51 +110,45 @@ module Api
       # TEMPLATES
       #
 
-      # The layout to be used by all views
-      #
-      layout :application # It will load Api::Views::ApplicationLayout
-
-      # The relative path to templates
-      #
-      templates 'templates'
+      layout false
 
       ##
       # ASSETS
       #
-      assets do
-        # JavaScript compressor
-        #
-        # Supported engines:
-        #
-        #   * :builtin
-        #   * :uglifier
-        #   * :yui
-        #   * :closure
-        #
-        # See: http://hanamirb.org/guides/assets/compressors
-        #
-        # In order to skip JavaScript compression comment the following line
-        javascript_compressor :builtin
+      # assets do
+      #   # JavaScript compressor
+      #   #
+      #   # Supported engines:
+      #   #
+      #   #   * :builtin
+      #   #   * :uglifier
+      #   #   * :yui
+      #   #   * :closure
+      #   #
+      #   # See: http://hanamirb.org/guides/assets/compressors
+      #   #
+      #   # In order to skip JavaScript compression comment the following line
+      #   javascript_compressor :builtin
 
-        # Stylesheet compressor
-        #
-        # Supported engines:
-        #
-        #   * :builtin
-        #   * :yui
-        #   * :sass
-        #
-        # See: http://hanamirb.org/guides/assets/compressors
-        #
-        # In order to skip stylesheet compression comment the following line
-        stylesheet_compressor :builtin
+      #   # Stylesheet compressor
+      #   #
+      #   # Supported engines:
+      #   #
+      #   #   * :builtin
+      #   #   * :yui
+      #   #   * :sass
+      #   #
+      #   # See: http://hanamirb.org/guides/assets/compressors
+      #   #
+      #   # In order to skip stylesheet compression comment the following line
+      #   stylesheet_compressor :builtin
 
-        # Specify sources for assets
-        #
-        sources << [
-          'assets'
-        ]
-      end
+      #   # Specify sources for assets
+      #   #
+      #   sources << [
+      #     'assets'
+      #   ]
+      # end
 
       ##
       # SECURITY
@@ -251,7 +249,7 @@ module Api
       #
       # See: http://www.rubydoc.info/gems/hanami-controller#Configuration
       controller.prepare do
-        # include ::Auth::Authentication
+        include ::Api::Authentication
         # include MyAuthentication # included in all the actions
         # before :authenticate!    # run an authentication before callback
       end

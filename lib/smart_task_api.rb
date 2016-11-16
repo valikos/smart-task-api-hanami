@@ -40,6 +40,24 @@ Hanami::Model.configure do
     #   attribute :id,   Integer
     #   attribute :name, String
     # end
+
+    collection :accounts do
+      entity     Account
+      repository AccountRepository
+
+      attribute :id,    Integer
+      attribute :email, String
+    end
+
+    collection :projects do
+      entity     Project
+      repository ProjectRepository
+
+      attribute :id,         Integer
+      attribute :account_id, Integer
+
+      attribute :title,      String
+    end
   end
 end.load!
 
