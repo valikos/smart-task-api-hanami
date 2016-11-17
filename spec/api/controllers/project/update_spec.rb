@@ -2,8 +2,10 @@ require_relative '../../../../apps/api/controllers/project/update'
 
 RSpec.describe Api::Controllers::Project::Update do
   let(:action) { described_class.new }
-  let(:project_entity) { double('Project') }
+  let(:project) { double('Project', id: 1) }
+  let(:updated_project) { double('Project') }
   let(:rodauth) { double('rodauth', session_value: 1) }
+  let(:repository) { double('ProjectRepository', update: updated_project, find_by_user: project) }
 
   before do
     allow(action).to receive(:rodauth).and_return(rodauth)
@@ -11,9 +13,9 @@ RSpec.describe Api::Controllers::Project::Update do
 
   context 'when acceptable params' do
     before do
-      allow(ProjectRepository).to receive(:find).and_return(project_entity)
-      allow(project_entity).to receive(:update)
-      allow(ProjectRepository).to receive(:update)
+      allow(ProjectRepository).to receive(:new).and_return(repository)
+      allow(repository).to receive(:find_by_user).and_return(project)
+      allow(repository).to receive(:update).with(project).and_return(updated_project)
     end
 
     let(:params) { { title: 'Testing', id: 1 } }
@@ -21,25 +23,29 @@ RSpec.describe Api::Controllers::Project::Update do
     it 'finds project entity' do
       action.call(params)
 
-      expect(ProjectRepository).to have_received(:find)
+      expect(repository).to have_received(:find_by_user)
     end
 
     it 'updates project entity' do
       action.call(params)
 
-      expect(project_entity).to have_received(:update)
-    end
-
-    it 'creates new project' do
-      action.call(params)
-
-      expect(ProjectRepository).to have_received(:update).with(project_entity)
+      expect(repository).to have_received(:update)
     end
 
     it 'returns 200 status' do
       response = action.call(params)
 
       expect(response[0]).to eq 200
+    end
+
+    context 'when user is not owner of project' do
+      let(:project) { nil }
+
+      it 'returns 404 status' do
+        response = action.call(params)
+
+        expect(response[0]).to eq 404
+      end
     end
   end
 

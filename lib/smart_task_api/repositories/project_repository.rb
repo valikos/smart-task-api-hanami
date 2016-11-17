@@ -1,13 +1,18 @@
-class ProjectRepository
-  include Hanami::Repository
-
-  def self.count
-    fetch('select count(*) from projects').first.fetch(:count)
+class ProjectRepository < Hanami::Repository
+  def count
+    DB[:projects].count
   end
 
-  def self.all_by_account(account)
-    query do
-      where(account_id: account.id)
-    end
+  def find_by_user(id, account)
+    projects
+      .where(id: id, account_id: account.id, id: id)
+      .as(Project)
+      .first
+  end
+
+  def all_by_account(account)
+    projects
+      .where(account_id: account.id)
+      .as(Project)
   end
 end

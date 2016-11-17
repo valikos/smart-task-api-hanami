@@ -5,7 +5,8 @@ module Api::Controllers::Project
     expose :projects
 
     def call(params)
-      @projects = ProjectRepository.all_by_account(current_user)
+      repository = ProjectRepository.new
+      @projects = repository.all_by_account(current_user)
     end
   end
 end

@@ -19,7 +19,7 @@ module Api
     end
 
     def current_user
-      @current_user ||= AccountRepository.find(account_id)
+      @current_user ||= AccountRepository.new.find(account_id)
     end
   end
 end

@@ -5,7 +5,7 @@ describe 'Auth' do
     include Rack::Test::Methods
 
     def app
-      @app ||= Hanami::Container.new
+      @app ||= Hanami.app
     end
 
     before do

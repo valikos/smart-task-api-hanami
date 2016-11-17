@@ -2,8 +2,9 @@ require_relative '../../../../apps/api/controllers/project/create'
 
 RSpec.describe Api::Controllers::Project::Create do
   let(:action) { described_class.new }
-  let(:project_entity) { double('Project') }
+  let(:entity) { double('Project') }
   let(:rodauth) { double('rodauth', session_value: 1) }
+  let(:repository) { double('ProjectRepository', create: entity) }
 
   before do
     allow(action).to receive(:rodauth).and_return(rodauth)
@@ -11,22 +12,15 @@ RSpec.describe Api::Controllers::Project::Create do
 
   context 'when acceptable params' do
     before do
-      allow(Project).to receive(:new).and_return(project_entity)
-      allow(ProjectRepository).to receive(:create)
+      allow(ProjectRepository).to receive(:new).and_return(repository)
     end
 
     let(:params) { { title: 'Testing' } }
 
-    it 'creates record entity' do
-      action.call(params)
-
-      expect(Project).to have_received(:new)
-    end
-
     it 'creates new project' do
       action.call(params)
 
-      expect(ProjectRepository).to have_received(:create).with(project_entity)
+      expect(repository).to have_received(:create)
     end
 
     it 'returns 201 status' do

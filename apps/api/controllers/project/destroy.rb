@@ -3,9 +3,15 @@ module Api::Controllers::Project
     include Api::Action
 
     def call(params)
-      entity = ProjectRepository.find(params[:id])
-      ProjectRepository.delete(entity)
-      status 200, "Your resource has been deleted"
+      repository = ProjectRepository.new
+      project = repository.find_by_user(params[:id], current_user)
+
+      if project
+        repository.delete(project.id)
+        status 200, ''
+      else
+        status 404, ''
+      end
     end
   end
 end
