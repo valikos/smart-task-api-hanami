@@ -10,6 +10,7 @@ gem 'jwt'
 gem 'bcrypt'
 gem 'pg'
 gem 'jsonapi-serializers'
+gem 'rack-cors', require: 'rack/cors'
 
 group :development do
   # Code reloading
@@ -18,7 +19,6 @@ group :development do
 end
 
 group :test, :development do
-  gem 'thin'
   gem 'dotenv', '~> 2.0'
   gem 'pry-byebug'
 end

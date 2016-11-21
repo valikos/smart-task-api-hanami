@@ -5,7 +5,7 @@ class ProjectRepository < Hanami::Repository
 
   def find_by_user(id, account)
     projects
-      .where(id: id, account_id: account.id, id: id)
+      .where(id: id, account_id: account.id)
       .as(Project)
       .first
   end
@@ -13,6 +13,6 @@ class ProjectRepository < Hanami::Repository
   def all_by_account(account)
     projects
       .where(account_id: account.id)
-      .as(Project)
+      .as(Project).to_a
   end
 end
