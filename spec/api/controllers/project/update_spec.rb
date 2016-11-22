@@ -18,7 +18,15 @@ RSpec.describe Api::Controllers::Project::Update do
       allow(repository).to receive(:update).with(project).and_return(updated_project)
     end
 
-    let(:params) { { title: 'Testing', id: 1 } }
+    let(:params) do
+      {
+        data: {
+          type: 'projects',
+          id: 1,
+          attributes: { title: 'Testing' }
+        }
+      }
+    end
 
     it 'finds project entity' do
       action.call(params)
@@ -50,7 +58,15 @@ RSpec.describe Api::Controllers::Project::Update do
   end
 
   context 'when unacceptable params' do
-    let(:params) { { title: 's'*141 } }
+    let(:params) do
+      {
+        data: {
+          type: 'projects',
+          id: 1,
+          attributes: { title: 'T'*141 }
+        }
+      }
+    end
 
     it 'returns 403 status' do
       response = action.call(params)

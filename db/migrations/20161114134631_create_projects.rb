@@ -4,7 +4,8 @@ Hanami::Model.migration do
       primary_key :id
       foreign_key :account_id, :accounts, on_delete: :cascade, null: false
 
-      column :title, String, null: false, size: 140
+      column :title,       String, null: false, size: 140
+      column :description, String
     end
   end
 

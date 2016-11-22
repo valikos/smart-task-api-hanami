@@ -15,7 +15,14 @@ RSpec.describe Api::Controllers::Project::Create do
       allow(ProjectRepository).to receive(:new).and_return(repository)
     end
 
-    let(:params) { { title: 'Testing' } }
+    let(:params) do
+      {
+        data: {
+          type: 'projects',
+          attributes: { title: 'Testing' }
+        }
+      }
+    end
 
     it 'creates new project' do
       action.call(params)
@@ -31,7 +38,14 @@ RSpec.describe Api::Controllers::Project::Create do
   end
 
   context 'when unacceptable params' do
-    let(:params) { { title: 's'*141 } }
+    let(:params) do
+      {
+        data: {
+          type: 'projects',
+          attributes: { title: 'T'*141 }
+        }
+      }
+    end
 
     it 'returns 403 status' do
       response = action.call(params)

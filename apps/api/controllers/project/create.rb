@@ -5,13 +5,20 @@ module Api::Controllers::Project
     expose :project
 
     params do
-      required(:title).filled(max_size?: 140)
+      required(:data).schema do
+        required(:type).value(eql?: 'projects')
+
+        required(:attributes).schema do
+          required(:title).filled(max_size?: 140)
+        end
+      end
     end
 
     def call(params)
       if params.valid?
         repository = ProjectRepository.new
-        @project = repository.create(params.to_h.merge(account_id: account_id))
+        project_params = params.get(:data, :attributes).merge(account_id: account_id)
+        @project = repository.create(project_params)
         self.status = 201
       else
         status 403, {}

@@ -1,18 +1,6 @@
 module RequestMethodHelpers
   HEADERS = { "CONTENT_TYPE" => "application/json" }
 
-  # [:get, :post, :put].each do |method|
-  #   define_method "xhr_#{method}" do |endpoint, params, authorization = nil|
-  #     url = if params.length
-  #       "#{endpoint}?#{query_params(params)}"
-  #     else
-  #       endpoint
-  #     end
-
-  #     Rack::Test::Methods.send(method, url, {}, HEADERS)
-  #   end
-  # end
-
   def xhr_get(endpoint, params, authorization = nil)
     url = if params.length
       "#{endpoint}?#{query_params(params)}"
@@ -23,24 +11,22 @@ module RequestMethodHelpers
     get(url, {}, HEADERS)
   end
 
-  def xhr_post(endpoint, params, authorization = nil)
-    url = if params.length
-      "#{endpoint}?#{query_params(params)}"
-    else
-      endpoint
-    end
-
-    post(url, {}, request_headers(auth: authorization))
+  def xhr_post(endpoint, params = {}, authorization = nil)
+    post(endpoint, params.to_json, request_headers(auth: authorization))
   end
 
-  def xhr_put(endpoint, params, authorization = nil)
-    url = if params.length
-      "#{endpoint}?#{query_params(params)}"
-    else
-      endpoint
-    end
+  def xhr_put(endpoint, params = {}, authorization = nil)
+    # url = if params.length
+    #   "#{endpoint}?#{query_params(params)}"
+    # else
+    #   endpoint
+    # end
 
-    put(url, {}, HEADERS)
+    put(endpoint, params.to_json, request_headers(auth: authorization))
+  end
+
+  def xhr_patch(endpoint, params = {}, authorization = nil)
+    patch(endpoint, params.to_json, request_headers(auth: authorization))
   end
 
   private

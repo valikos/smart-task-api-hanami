@@ -102,9 +102,9 @@ RSpec.configure do |config|
 =end
 
   config.include Rack::Test::Methods,  type: :request
-  # config.include ApplicationHelpers,   type: :request
   config.include RequestMethodHelpers, type: :request
   config.include CreateAccountHelper,  type: :request
+  config.include EntityHelpers,        type: :request
 
   config.before(:suite) do
     connection = DatabaseCleaner[:sequel, {:connection => Sequel.connect(ENV['DATABASE_URL'])}]

@@ -7,7 +7,9 @@ module CreateAccountHelper
       'password-confirm': 'password'
     }
 
-    xhr_post('/auth/create-account', params)
+    endpoint = "/auth/create-account?#{Rack::Utils.build_query(params)}"
+
+    post(endpoint, {}, { "CONTENT_TYPE" => "application/json" })
 
     last_response.header['Authorization']
   end
