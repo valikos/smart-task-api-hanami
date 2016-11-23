@@ -11,6 +11,7 @@ post   '/projects',     to: 'project#create'
 patch  '/projects/:id', to: 'project#update'
 delete '/projects/:id', to: 'project#destroy'
 
-# Task action
-post   '/tasks', to: 'tasks#create'
-delete '/tasks/:id', to: 'tasks#destroy'
+# Task actions
+get    '/projects/:project_id/tasks', to: 'tasks#index'
+post   '/tasks',                      to: 'tasks#create'
+delete '/tasks/:id',                  to: 'tasks#destroy'

@@ -1,6 +1,4 @@
-class TaskSerializer
-  include JSONAPI::Serializer
-
+class TaskSerializer < BaseSerializer
   attribute :title
   attribute :completed
 end

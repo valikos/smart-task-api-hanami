@@ -5,7 +5,7 @@ class ProjectRepository < Hanami::Repository
   end
 
   def get_tasks(project)
-    assoc(:tasks, project)
+    assoc(:tasks, project).to_a
   end
 
   def find_with_tasks(id)
