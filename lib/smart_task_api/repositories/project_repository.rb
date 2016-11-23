@@ -1,4 +1,18 @@
 class ProjectRepository < Hanami::Repository
+
+  associations do
+    has_many :tasks
+  end
+
+  def find_with_tasks(id)
+    binding.pry
+    aggregate(:tasks).where(project_id: id).as(Project).one
+  end
+
+  def add_task(project, data)
+    assoc(:tasks, project).add(data)
+  end
+
   def count
     DB[:projects].count
   end
