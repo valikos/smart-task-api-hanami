@@ -29,8 +29,8 @@ describe 'Api', type: :request do
         xhr_patch("/api/projects/#{@project.id}", params, @token)
       end
 
-      xit 'creates new project' do
-        expect{ repo.first.title }.to be('Updated')
+      it 'creates new project' do
+        expect(repo.first.title).to eq 'Updated'
       end
     end
   end

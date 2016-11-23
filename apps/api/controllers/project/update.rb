@@ -21,7 +21,7 @@ module Api::Controllers::Project
         repository = ProjectRepository.new
         project = repository.find_by_user(params.get(:data, :id), current_user)
         return status(404, {}) unless project
-        project = repository.update(project.id, params.get(:data, :attributes))
+        @project = repository.update(project.id, params.get(:data, :attributes))
         status 200, {}
       else
         status 403, {}
