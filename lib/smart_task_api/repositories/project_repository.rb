@@ -4,8 +4,11 @@ class ProjectRepository < Hanami::Repository
     has_many :tasks
   end
 
+  def get_tasks(project)
+    assoc(:tasks, project)
+  end
+
   def find_with_tasks(id)
-    binding.pry
     aggregate(:tasks).where(project_id: id).as(Project).one
   end
 
