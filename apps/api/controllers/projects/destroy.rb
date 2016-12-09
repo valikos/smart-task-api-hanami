@@ -1,4 +1,4 @@
-module Api::Controllers::Project
+module Api::Controllers::Projects
   class Destroy
     include Api::Action
 

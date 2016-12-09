@@ -5,11 +5,11 @@
 # get '/hello', to: ->(env) { [200, {}, ['Hello from Hanami!']] }
 #
 # Project actions
-get    '/projects',     to: 'project#index'
-get    '/projects/:id', to: 'project#show'
-post   '/projects',     to: 'project#create'
-patch  '/projects/:id', to: 'project#update'
-delete '/projects/:id', to: 'project#destroy'
+get    '/projects',     to: 'projects#index'
+get    '/projects/:id', to: 'projects#show'
+post   '/projects',     to: 'projects#create'
+patch  '/projects/:id', to: 'projects#update'
+delete '/projects/:id', to: 'projects#destroy'
 
 # Task actions
 get    '/projects/:project_id/tasks', to: 'tasks#index'

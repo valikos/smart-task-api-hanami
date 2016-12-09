@@ -1,6 +1,6 @@
-require_relative '../../../../apps/api/controllers/project/index'
+require_relative '../../../../apps/api/controllers/projects/index'
 
-RSpec.describe Api::Controllers::Project::Index do
+RSpec.describe Api::Controllers::Projects::Index do
   let(:action) { described_class.new }
   let(:params) { Hash[] }
   let(:account) { double('Account', id: 1) }

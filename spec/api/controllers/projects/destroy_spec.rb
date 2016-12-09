@@ -1,6 +1,6 @@
-require_relative '../../../../apps/api/controllers/project/destroy'
+require_relative '../../../../apps/api/controllers/projects/destroy'
 
-RSpec.describe Api::Controllers::Project::Destroy do
+RSpec.describe Api::Controllers::Projects::Destroy do
   let(:action) { described_class.new }
   let(:params) { { id: 1} }
   let(:rodauth) { double('rodauth', session_value: 1) }
