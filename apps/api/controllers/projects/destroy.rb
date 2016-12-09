@@ -1,4 +1,4 @@
-module Api::Controllers::Project
+module Api::Controllers::Projects
   class Destroy
     include Api::Action
 
@@ -8,7 +8,7 @@ module Api::Controllers::Project
 
       if project
         repository.delete(project.id)
-        status 200, ''
+        halt 204
       else
         status 404, ''
       end

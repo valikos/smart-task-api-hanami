@@ -1,6 +1,6 @@
-require_relative '../../../../apps/api/controllers/project/update'
+require_relative '../../../../apps/api/controllers/projects/update'
 
-RSpec.describe Api::Controllers::Project::Update do
+RSpec.describe Api::Controllers::Projects::Update do
   let(:action) { described_class.new }
   let(:project) { double('Project', id: 1) }
   let(:updated_project) { double('Project') }

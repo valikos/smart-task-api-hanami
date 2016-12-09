@@ -29,10 +29,10 @@ RSpec.describe Api::Controllers::Tasks::Destroy do
     expect(repository).to have_received(:delete).with(task.id)
   end
 
-  it 'returns 200 status' do
+  it 'returns 204 status' do
     response = action.call(params)
 
-    expect(response[0]).to eq 200
+    expect(response[0]).to eq 204
   end
 
   context 'when can not find task' do

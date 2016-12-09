@@ -1,6 +1,6 @@
-require_relative '../../../../apps/api/controllers/project/create'
+require_relative '../../../../apps/api/controllers/projects/create'
 
-RSpec.describe Api::Controllers::Project::Create do
+RSpec.describe Api::Controllers::Projects::Create do
   let(:action) { described_class.new }
   let(:entity) { double('Project') }
   let(:rodauth) { double('rodauth', session_value: 1) }
