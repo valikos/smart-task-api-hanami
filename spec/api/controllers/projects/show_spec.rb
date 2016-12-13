@@ -5,7 +5,7 @@ RSpec.describe Api::Controllers::Projects::Show do
   let(:params) { { id: 1 } }
   let(:rodauth) { double('rodauth', session_value: 1) }
   let(:account) { double('Account', id: 1) }
-  let(:repository) { double('ProjectRepository', find_by_user: result)}
+  let(:repository) { double('ProjectRepository', find_by_account_with_tasks: result)}
   let(:result) { double('Project') }
 
   before do
@@ -16,7 +16,7 @@ RSpec.describe Api::Controllers::Projects::Show do
   it 'finds project record' do
     action.call(params)
 
-    expect(repository).to have_received(:find_by_user)
+    expect(repository).to have_received(:find_by_account_with_tasks)
   end
 
   context 'when user is owner of project' do

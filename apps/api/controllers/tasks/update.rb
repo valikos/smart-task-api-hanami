@@ -1,6 +1,10 @@
+require_relative '../../middlewares/snake_case_attributes'
+
 module Api::Controllers::Tasks
   class Update
     include Api::Action
+
+    use ::SnakeCaseAttributes
 
     expose :task
 
@@ -12,6 +16,7 @@ module Api::Controllers::Tasks
         required(:attributes).schema do
           optional(:title).filled
           optional(:completed).filled
+          optional(:due_date).filled
         end
 
         required(:relationships).schema do

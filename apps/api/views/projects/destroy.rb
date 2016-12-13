@@ -1,4 +1,4 @@
-module Api::Views::Project
+module Api::Views::Projects
   class Destroy
     include Api::View
   end

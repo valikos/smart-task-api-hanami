@@ -1,5 +1,5 @@
-module Api::Views::Project
-  class Update
+module Api::Views::Projects
+  class Create
     include Api::View
 
     format :json

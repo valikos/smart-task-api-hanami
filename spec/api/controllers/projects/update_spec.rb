@@ -5,7 +5,7 @@ RSpec.describe Api::Controllers::Projects::Update do
   let(:project) { double('Project', id: 1) }
   let(:updated_project) { double('Project') }
   let(:rodauth) { double('rodauth', session_value: 1) }
-  let(:repository) { double('ProjectRepository', update: updated_project, find_by_user: project) }
+  let(:repository) { double('ProjectRepository', update: updated_project, find_by_account: project) }
 
   before do
     allow(action).to receive(:rodauth).and_return(rodauth)
@@ -14,7 +14,7 @@ RSpec.describe Api::Controllers::Projects::Update do
   context 'when acceptable params' do
     before do
       allow(ProjectRepository).to receive(:new).and_return(repository)
-      allow(repository).to receive(:find_by_user).and_return(project)
+      allow(repository).to receive(:find_by_account).and_return(project)
       allow(repository).to receive(:update).with(project).and_return(updated_project)
     end
 
@@ -31,7 +31,7 @@ RSpec.describe Api::Controllers::Projects::Update do
     it 'finds project entity' do
       action.call(params)
 
-      expect(repository).to have_received(:find_by_user)
+      expect(repository).to have_received(:find_by_account)
     end
 
     it 'updates project entity' do

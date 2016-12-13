@@ -4,7 +4,7 @@ module Api::Controllers::Projects
 
     def call(params)
       repository = ProjectRepository.new
-      project = repository.find_by_user(params[:id], current_user)
+      project = repository.find_by_account(params[:id], current_user)
 
       if project
         repository.delete(project.id)

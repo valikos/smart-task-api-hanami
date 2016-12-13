@@ -6,7 +6,7 @@ module Api::Controllers::Projects
 
     def call(params)
       repository = ProjectRepository.new
-      @projects = repository.all_by_account(current_user)
+      @projects = repository.all_by_account_with_tasks(current_user)
     end
   end
 end

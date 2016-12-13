@@ -4,6 +4,7 @@ class Task < Hanami::Entity
     attribute :project_id,  Types::Int
     attribute :title,       Types::String
     attribute :completed,   Types::Bool
+    attribute :due_date,    Types::Date
 
     attribute :created_at,  Types::Time
     attribute :updated_at,  Types::Time

@@ -5,7 +5,7 @@ RSpec.describe Api::Controllers::Projects::Index do
   let(:params) { Hash[] }
   let(:account) { double('Account', id: 1) }
   let(:rodauth) { double('rodauth', session_value: 1) }
-  let(:repository) { double('ProjectRepository', all_by_account: []) }
+  let(:repository) { double('ProjectRepository', all_by_account_with_tasks: []) }
 
   before do
     allow(action).to receive(:rodauth).and_return(rodauth)
@@ -15,7 +15,7 @@ RSpec.describe Api::Controllers::Projects::Index do
   it 'finds records by account' do
     action.call(params)
 
-    expect(repository).to have_received(:all_by_account)
+    expect(repository).to have_received(:all_by_account_with_tasks)
   end
 
   it 'returns 200 status' do

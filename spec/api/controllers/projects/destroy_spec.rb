@@ -10,14 +10,14 @@ RSpec.describe Api::Controllers::Projects::Destroy do
   before do
     allow(action).to receive(:rodauth).and_return(rodauth)
     allow(ProjectRepository).to receive(:new).and_return(repository)
-    allow(repository).to receive(:find_by_user).and_return(project)
+    allow(repository).to receive(:find_by_account).and_return(project)
     allow(repository).to receive(:delete)
   end
 
   it 'finds project entity' do
     action.call(params)
 
-    expect(repository).to have_received(:find_by_user)
+    expect(repository).to have_received(:find_by_account)
   end
 
   it 'deletes project record' do
