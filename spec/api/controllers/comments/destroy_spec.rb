@@ -1,32 +1,32 @@
-require_relative '../../../../apps/api/controllers/tasks/destroy'
+require_relative '../../../../apps/api/controllers/comments/destroy'
 
-RSpec.describe Api::Controllers::Tasks::Destroy do
+RSpec.describe Api::Controllers::Comments::Destroy do
   let(:action) { described_class.new }
   let(:params) { Hash[] }
 
   let(:action) { described_class.new }
   let(:params) { { id: 1} }
   let(:rodauth) { double('rodauth', session_value: 1) }
-  let(:task) { double('Task', title: 'Testing', id: 1) }
-  let(:repository) { double('TaskRepository') }
+  let(:comment) { double('Comment', id: 1) }
+  let(:repository) { double('CommentRepository') }
 
   before do
     allow(action).to receive(:rodauth).and_return(rodauth)
-    allow(TaskRepository).to receive(:new).and_return(repository)
-    allow(repository).to receive(:find).and_return(task)
+    allow(CommentRepository).to receive(:new).and_return(repository)
+    allow(repository).to receive(:find).and_return(comment)
     allow(repository).to receive(:delete)
   end
 
-  it 'finds task entity' do
+  it 'finds comment entity' do
     action.call(params)
 
     expect(repository).to have_received(:find)
   end
 
-  it 'deletes task record' do
+  it 'deletes comment record' do
     action.call(params)
 
-    expect(repository).to have_received(:delete).with(task.id)
+    expect(repository).to have_received(:delete).with(comment.id)
   end
 
   it 'returns 204 status' do
@@ -36,7 +36,7 @@ RSpec.describe Api::Controllers::Tasks::Destroy do
   end
 
   context 'when can not find task' do
-    let(:task) { nil }
+    let(:comment) { nil }
 
     it 'returns 404 status' do
      response = action.call(params)

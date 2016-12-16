@@ -16,3 +16,7 @@ get    '/projects/:project_id/tasks', to: 'tasks#index'
 post   '/tasks',                      to: 'tasks#create'
 delete '/tasks/:id',                  to: 'tasks#destroy'
 patch  '/tasks/:id',                  to: 'tasks#update'
+
+# Comment actions
+post   '/comments',     to: 'comments#create'
+delete '/comments/:id', to: 'comments#destroy'

@@ -26,10 +26,10 @@ RSpec.describe Api::Controllers::Project::Destroy do
     expect(repository).to have_received(:delete).with(project.id)
   end
 
-  it 'returns 200 status' do
+  it 'returns 204 status' do
     response = action.call(params)
 
-    expect(response[0]).to eq 200
+    expect(response[0]).to eq 204
   end
 
   context 'when user is not owner of project' do

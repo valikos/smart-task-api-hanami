@@ -8,7 +8,7 @@ module Api::Controllers::Tasks
 
       if task
         repository.delete(task.id)
-        status 200, ''
+        halt 204
       else
         status 404, ''
       end
