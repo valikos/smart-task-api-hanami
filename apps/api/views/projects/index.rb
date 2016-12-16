@@ -7,7 +7,14 @@ module Api::Views::Projects
     def render
       raw JSON.generate(
         ProjectSerializer.serialize(
-          projects, is_collection: true, include: 'tasks'
+          projects,
+          is_collection: true,
+          include: [
+            'tasks',
+            'tasks.project',
+            'tasks.comments',
+            'tasks.comments.task'
+          ]
         )
       )
     end

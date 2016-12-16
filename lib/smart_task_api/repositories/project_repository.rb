@@ -28,10 +28,6 @@ class ProjectRepository < Hanami::Repository
     projects.where(id: id, account_id: account.id).as(Project).one
   end
 
-  def find_by_account_with_tasks(id, account)
-    aggregate(:tasks).where(id: id, account_id: account.id).as(Project).one
-  end
-
   def all_by_account(account)
     projects
       .where(account_id: account.id)
