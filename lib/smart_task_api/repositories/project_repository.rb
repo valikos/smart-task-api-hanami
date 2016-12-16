@@ -8,6 +8,10 @@ class ProjectRepository < Hanami::Repository
     assoc(:tasks, project).to_a
   end
 
+  def find_by_task(task)
+    projects.where(id: task.project_id).as(Project).one
+  end
+
   def find_with_tasks(id)
     aggregate(:tasks).where(projects__id: id).as(Project).one
   end
