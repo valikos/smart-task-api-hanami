@@ -5,7 +5,15 @@ module Api::Views::Tasks
     format :json
 
     def render
-      raw JSON.generate(TaskSerializer.serialize(task))
+      raw JSON.generate(
+        TaskSerializer.serialize(
+          task,
+          include: [
+            'project',
+            'comments'
+          ]
+        )
+      )
     end
   end
 end

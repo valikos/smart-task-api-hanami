@@ -18,25 +18,16 @@ module Api::Controllers::Tasks
           optional(:completed).filled
           optional(:due_date).filled
         end
-
-        required(:relationships).schema do
-          required(:project).schema do
-            required(:data).schema do
-              required(:type).value(eql?: 'projects')
-              required(:id).filled(:int?)
-            end
-          end
-        end
       end
     end
 
     def call(params)
       if params.valid?
-        project_id = params.get(:data, :relationships, :project, :data, :id)
         repository = TaskRepository.new
-        update_data = params.get(:data, :attributes)
-                        .merge(project_id: project_id)
-        @task = repository.update(params.get(:data, :id), update_data)
+        @task = repository.update(
+          params.get(:data, :id),
+          params.get(:data, :attributes)
+        )
       else
         status 403, {}
       end
