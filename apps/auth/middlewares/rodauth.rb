@@ -11,7 +11,7 @@ module Auth
 
       # account_password_hash_column :password_hash
 
-      jwt_secret 'lorem'
+      jwt_secret ENV['JWT_SECRET']
     end
 
     route do |r|
