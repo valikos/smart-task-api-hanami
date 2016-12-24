@@ -3,11 +3,11 @@ class TaskSerializer < BaseSerializer
   attribute :completed
   attribute :due_date
 
-  has_one :project do
+  has_one :project, include_data: true do
     ProjectRepository.new.find_by_task(self.object)
   end
 
-  has_many :comments do
+  has_many :comments, include_data: true do
     CommentRepository.new.find_by_task(self.object)
   end
 end
