@@ -12,6 +12,8 @@ gem 'bcrypt'
 gem 'pg'
 gem 'jsonapi-serializers'
 gem 'rack-cors', require: 'rack/cors'
+gem 'newrelic-hanami', git: 'https://github.com/valikos/newrelic-hanami.git',
+                       branch: 'feature/support-hanami-9'
 
 group :development do
   # Code reloading
