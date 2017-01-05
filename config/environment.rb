@@ -2,6 +2,7 @@ require 'bundler/setup'
 require 'hanami/setup'
 require 'hanami/model'
 require_relative '../lib/smart_task_api'
+require_relative '../apps/oauth/application'
 require_relative '../apps/auth/application'
 require_relative '../apps/api/application'
 
@@ -9,6 +10,7 @@ DB = Sequel.connect(ENV['DATABASE_URL'])
 
 # This used to be `Hanami::Container.configure`, now it must be `Hanami.configure`
 Hanami.configure do
+  mount OAuth::Application, at: '/o'
   mount Auth::Application, at: '/auth'
   mount Api::Application,  at: '/api'
 

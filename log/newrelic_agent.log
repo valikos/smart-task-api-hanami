@@ -1,0 +1,996 @@
+# Logfile created on 2017-01-03 12:56:45 +0200 by logger.rb/54362
+[2017-01-03 12:56:45 +0200 MacBook-Pro.local (70290)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 12:56:45 +0200 MacBook-Pro.local (70290)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 12:56:45 +0200 MacBook-Pro.local (70290)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 12:56:45 +0200 MacBook-Pro.local (70290)] INFO : Environment: development
+[2017-01-03 12:56:45 +0200 MacBook-Pro.local (70290)] INFO : No known dispatcher detected.
+[2017-01-03 12:56:45 +0200 MacBook-Pro.local (70290)] INFO : Application: Smart Task API (Development)
+[2017-01-03 12:56:46 +0200 MacBook-Pro.local (70290)] INFO : Installing Hanami instrumentation
+[2017-01-03 12:56:46 +0200 MacBook-Pro.local (70290)] INFO : Installing Net instrumentation
+[2017-01-03 12:56:46 +0200 MacBook-Pro.local (70290)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-03 12:56:46 +0200 MacBook-Pro.local (70290)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-03 12:56:46 +0200 MacBook-Pro.local (70290)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-03 12:56:46 +0200 MacBook-Pro.local (70290)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-03 12:56:46 +0200 MacBook-Pro.local (70290)] INFO : Installing Sequel instrumentation
+[2017-01-03 12:56:46 +0200 MacBook-Pro.local (70290)] INFO : Finished instrumentation
+[2017-01-03 12:56:46 +0200 MacBook-Pro.local (70290)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 12:56:46 +0200 MacBook-Pro.local (70290)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 12:56:46 +0200 MacBook-Pro.local (70290)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Environment: development
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : No known dispatcher detected.
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Application: Smart Task API (Development)
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Installing Hanami instrumentation
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Installing Net instrumentation
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Installing Sequel instrumentation
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Finished instrumentation
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 12:57:12 +0200 MacBook-Pro.local (70389)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Environment: development
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : No known dispatcher detected.
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Application: Smart Task API (Development)
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Installing Hanami instrumentation
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Installing Net instrumentation
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Installing Sequel instrumentation
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Finished instrumentation
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 12:58:31 +0200 MacBook-Pro.local (70811)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Environment: development
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : No known dispatcher detected.
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Application: Smart Task API (Development)
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Installing Hanami instrumentation
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Installing Net instrumentation
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Installing Sequel instrumentation
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Finished instrumentation
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 13:00:52 +0200 MacBook-Pro.local (70982)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 13:00:53 +0200 MacBook-Pro.local (70982)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Environment: development
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : No known dispatcher detected.
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Application: Smart Task API (Development)
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Installing Hanami instrumentation
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Installing Net instrumentation
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Installing Sequel instrumentation
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Finished instrumentation
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 13:01:12 +0200 MacBook-Pro.local (71077)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Environment: development
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : No known dispatcher detected.
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Application: Smart Task API (Development)
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Installing Hanami instrumentation
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Installing Net instrumentation
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Installing Sequel instrumentation
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Finished instrumentation
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-03 13:01:46 +0200 MacBook-Pro.local (71478)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-03 13:01:47 +0200 MacBook-Pro.local (71478)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-03 16:00:56 +0200 MacBook-Pro.local (71478)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2017-01-03 16:00:56 +0200 MacBook-Pro.local (71478)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: Invalid argument - setsockopt(2)
+[2017-01-03 16:00:56 +0200 MacBook-Pro.local (71478)] INFO : Will re-attempt in 60 seconds
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Environment: development
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : No known dispatcher detected.
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Application: Smart Task API (Development)
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Installing Hanami instrumentation
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Installing Net instrumentation
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Installing Sequel instrumentation
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Finished instrumentation
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 12:15:00 +0200 MacBook-Pro.local (82296)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Environment: development
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : No known dispatcher detected.
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Application: Smart Task API (Development)
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Installing Hanami instrumentation
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Installing Net instrumentation
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Installing Sequel instrumentation
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Finished instrumentation
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 12:16:00 +0200 MacBook-Pro.local (82588)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 12:16:01 +0200 MacBook-Pro.local (82588)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Environment: development
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : No known dispatcher detected.
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Application: Smart Task API (Development)
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Installing Hanami instrumentation
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Installing Net instrumentation
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Installing Sequel instrumentation
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Finished instrumentation
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 12:30:09 +0200 MacBook-Pro.local (83292)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 12:30:10 +0200 MacBook-Pro.local (83292)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Environment: development
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : No known dispatcher detected.
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Application: Smart Task API (Development)
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Installing Hanami instrumentation
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Installing Net instrumentation
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Installing Sequel instrumentation
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Finished instrumentation
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 12:48:35 +0200 MacBook-Pro.local (84736)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 12:48:36 +0200 MacBook-Pro.local (84736)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Environment: development
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : No known dispatcher detected.
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Application: Smart Task API (Development)
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Installing Hanami instrumentation
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Installing Net instrumentation
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Installing Sequel instrumentation
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Finished instrumentation
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 13:12:40 +0200 MacBook-Pro.local (87888)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 13:12:41 +0200 MacBook-Pro.local (87888)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Environment: development
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : No known dispatcher detected.
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Application: Smart Task API (Development)
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Installing Hanami instrumentation
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Installing Net instrumentation
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Installing Sequel instrumentation
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Finished instrumentation
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:29:17 +0200 MacBook-Pro.local (92397)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 16:30:09 +0200 MacBook-Pro.local (92397)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2017-01-04 16:30:09 +0200 MacBook-Pro.local (92397)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: Broken pipe - SSL_connect
+[2017-01-04 16:30:09 +0200 MacBook-Pro.local (92397)] INFO : Will re-attempt in 60 seconds
+[2017-01-04 16:31:57 +0200 MacBook-Pro.local (92925)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:31:57 +0200 MacBook-Pro.local (92925)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:31:57 +0200 MacBook-Pro.local (92925)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:31:57 +0200 MacBook-Pro.local (92925)] INFO : Environment: development
+[2017-01-04 16:31:57 +0200 MacBook-Pro.local (92925)] INFO : No known dispatcher detected.
+[2017-01-04 16:31:57 +0200 MacBook-Pro.local (92925)] INFO : Application: Smart Task API (Development)
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : Installing Hanami instrumentation
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : Installing Net instrumentation
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : Installing Sequel instrumentation
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : Finished instrumentation
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:31:58 +0200 MacBook-Pro.local (92925)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 16:32:21 +0200 MacBook-Pro.local (93031)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:32:21 +0200 MacBook-Pro.local (93031)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:32:21 +0200 MacBook-Pro.local (93031)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:32:21 +0200 MacBook-Pro.local (93031)] INFO : Environment: development
+[2017-01-04 16:32:21 +0200 MacBook-Pro.local (93031)] INFO : No known dispatcher detected.
+[2017-01-04 16:32:21 +0200 MacBook-Pro.local (93031)] INFO : Application: Smart Task API (Development)
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : Installing Hanami instrumentation
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : Installing Net instrumentation
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : Installing Sequel instrumentation
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : Finished instrumentation
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:32:22 +0200 MacBook-Pro.local (93031)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Environment: development
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : No known dispatcher detected.
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Application: Smart Task API (Development)
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Installing Hanami instrumentation
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Installing Net instrumentation
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Installing Sequel instrumentation
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Finished instrumentation
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:32:49 +0200 MacBook-Pro.local (93135)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 16:45:19 +0200 MacBook-Pro.local (93135)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2017-01-04 16:45:19 +0200 MacBook-Pro.local (93135)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: execution expired
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Environment: development
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : No known dispatcher detected.
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Application: Smart Task API (Development)
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Installing Hanami instrumentation
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Installing Net instrumentation
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Installing Sequel instrumentation
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Finished instrumentation
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:45:52 +0200 MacBook-Pro.local (96964)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:45:53 +0200 MacBook-Pro.local (96964)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Environment: development
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : No known dispatcher detected.
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Application: Smart Task API (Development)
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Installing Hanami instrumentation
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Installing Net instrumentation
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Installing Sequel instrumentation
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Finished instrumentation
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 16:59:11 +0200 MacBook-Pro.local (97510)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Environment: development
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : No known dispatcher detected.
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Installing Net instrumentation
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Finished instrumentation
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:00:16 +0200 MacBook-Pro.local (97666)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Environment: development
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : No known dispatcher detected.
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Installing Net instrumentation
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Finished instrumentation
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:00:52 +0200 MacBook-Pro.local (97720)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:01:06 +0200 MacBook-Pro.local (97808)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:01:06 +0200 MacBook-Pro.local (97808)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:01:06 +0200 MacBook-Pro.local (97808)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:01:06 +0200 MacBook-Pro.local (97808)] INFO : Environment: development
+[2017-01-04 17:01:06 +0200 MacBook-Pro.local (97808)] INFO : No known dispatcher detected.
+[2017-01-04 17:01:06 +0200 MacBook-Pro.local (97808)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : Installing Net instrumentation
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : Finished instrumentation
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:01:07 +0200 MacBook-Pro.local (97808)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Environment: development
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : No known dispatcher detected.
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Installing Net instrumentation
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Finished instrumentation
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:02:38 +0200 MacBook-Pro.local (97858)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Environment: development
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : No known dispatcher detected.
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Installing Net instrumentation
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Finished instrumentation
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:07:00 +0200 MacBook-Pro.local (98085)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Environment: development
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : No known dispatcher detected.
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Installing Net instrumentation
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Finished instrumentation
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:07:24 +0200 MacBook-Pro.local (98104)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Environment: development
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : No known dispatcher detected.
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Installing Net instrumentation
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Finished instrumentation
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:07:40 +0200 MacBook-Pro.local (98123)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:07:41 +0200 MacBook-Pro.local (98123)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Environment: development
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : No known dispatcher detected.
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Installing Net instrumentation
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Finished instrumentation
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:09:37 +0200 MacBook-Pro.local (98175)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Environment: development
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : No known dispatcher detected.
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Installing Net instrumentation
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Finished instrumentation
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:09:49 +0200 MacBook-Pro.local (98194)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:09:50 +0200 MacBook-Pro.local (98194)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Environment: development
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : No known dispatcher detected.
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Installing Net instrumentation
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Finished instrumentation
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:11:08 +0200 MacBook-Pro.local (98228)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Environment: development
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : No known dispatcher detected.
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Installing Net instrumentation
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Finished instrumentation
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:17:21 +0200 MacBook-Pro.local (99501)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Environment: development
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : No known dispatcher detected.
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Installing Net instrumentation
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Finished instrumentation
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:18:12 +0200 MacBook-Pro.local (99528)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:18:13 +0200 MacBook-Pro.local (99528)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Environment: development
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : No known dispatcher detected.
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Installing Net instrumentation
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Finished instrumentation
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:26:45 +0200 MacBook-Pro.local (244)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Environment: development
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : No known dispatcher detected.
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Installing Net instrumentation
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Finished instrumentation
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:30:16 +0200 MacBook-Pro.local (886)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:30:17 +0200 MacBook-Pro.local (886)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Environment: development
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : No known dispatcher detected.
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Installing Net instrumentation
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Finished instrumentation
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:36:10 +0200 MacBook-Pro.local (1254)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:36:11 +0200 MacBook-Pro.local (1254)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Environment: development
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : No known dispatcher detected.
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Installing Net instrumentation
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Finished instrumentation
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:36:48 +0200 MacBook-Pro.local (1441)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Environment: development
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : No known dispatcher detected.
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Installing Net instrumentation
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Finished instrumentation
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:39:22 +0200 MacBook-Pro.local (1566)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Environment: development
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : No known dispatcher detected.
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Installing Net instrumentation
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Finished instrumentation
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:39:42 +0200 MacBook-Pro.local (1595)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:39:43 +0200 MacBook-Pro.local (1595)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Environment: development
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : No known dispatcher detected.
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Installing Net instrumentation
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Finished instrumentation
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:42:29 +0200 MacBook-Pro.local (2365)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:42:30 +0200 MacBook-Pro.local (2365)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Environment: development
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : No known dispatcher detected.
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Installing Net instrumentation
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Finished instrumentation
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:42:34 +0200 MacBook-Pro.local (2385)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Environment: development
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : No known dispatcher detected.
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Installing Net instrumentation
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Finished instrumentation
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:42:50 +0200 MacBook-Pro.local (2403)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Environment: development
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : No known dispatcher detected.
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Installing Net instrumentation
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Finished instrumentation
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:45:15 +0200 MacBook-Pro.local (2929)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:45:16 +0200 MacBook-Pro.local (2929)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Environment: development
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : No known dispatcher detected.
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Installing Net instrumentation
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Finished instrumentation
+[2017-01-04 17:47:14 +0200 MacBook-Pro.local (3100)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:47:15 +0200 MacBook-Pro.local (3100)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:47:15 +0200 MacBook-Pro.local (3100)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:47:15 +0200 MacBook-Pro.local (3100)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Environment: development
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : No known dispatcher detected.
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Installing Net instrumentation
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Finished instrumentation
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:47:48 +0200 MacBook-Pro.local (3226)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:47:49 +0200 MacBook-Pro.local (3226)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Environment: development
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : No known dispatcher detected.
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Installing Net instrumentation
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Finished instrumentation
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:49:11 +0200 MacBook-Pro.local (3438)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Environment: development
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : No known dispatcher detected.
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Installing Net instrumentation
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Finished instrumentation
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:50:26 +0200 MacBook-Pro.local (3787)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Environment: development
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : No known dispatcher detected.
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Installing Net instrumentation
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Finished instrumentation
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:51:47 +0200 MacBook-Pro.local (4033)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:51:48 +0200 MacBook-Pro.local (4033)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:52:19 +0200 MacBook-Pro.local (4147)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:52:19 +0200 MacBook-Pro.local (4147)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:52:19 +0200 MacBook-Pro.local (4147)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:52:19 +0200 MacBook-Pro.local (4147)] INFO : Environment: development
+[2017-01-04 17:52:19 +0200 MacBook-Pro.local (4147)] INFO : No known dispatcher detected.
+[2017-01-04 17:52:19 +0200 MacBook-Pro.local (4147)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : Installing Net instrumentation
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : Finished instrumentation
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:52:20 +0200 MacBook-Pro.local (4147)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Environment: development
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : No known dispatcher detected.
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Installing Net instrumentation
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Finished instrumentation
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:52:42 +0200 MacBook-Pro.local (4298)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:52:43 +0200 MacBook-Pro.local (4298)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Environment: development
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : No known dispatcher detected.
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Installing Net instrumentation
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Finished instrumentation
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:52:58 +0200 MacBook-Pro.local (4357)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Environment: development
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : No known dispatcher detected.
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Installing Net instrumentation
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Finished instrumentation
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:55:14 +0200 MacBook-Pro.local (4570)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Environment: development
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : No known dispatcher detected.
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Installing Net instrumentation
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Finished instrumentation
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:56:12 +0200 MacBook-Pro.local (4734)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:56:13 +0200 MacBook-Pro.local (4734)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:58:10 +0200 MacBook-Pro.local (4772)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:58:10 +0200 MacBook-Pro.local (4772)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:58:10 +0200 MacBook-Pro.local (4772)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:58:10 +0200 MacBook-Pro.local (4772)] INFO : Environment: development
+[2017-01-04 17:58:10 +0200 MacBook-Pro.local (4772)] INFO : No known dispatcher detected.
+[2017-01-04 17:58:10 +0200 MacBook-Pro.local (4772)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : Installing Net instrumentation
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : Finished instrumentation
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:58:11 +0200 MacBook-Pro.local (4772)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 17:58:30 +0200 MacBook-Pro.local (4791)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:58:30 +0200 MacBook-Pro.local (4791)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:58:30 +0200 MacBook-Pro.local (4791)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:58:30 +0200 MacBook-Pro.local (4791)] INFO : Environment: development
+[2017-01-04 17:58:30 +0200 MacBook-Pro.local (4791)] INFO : No known dispatcher detected.
+[2017-01-04 17:58:30 +0200 MacBook-Pro.local (4791)] INFO : Application: Smart Task API (Development)
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : Installing Hanami instrumentation
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : Installing Net instrumentation
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : Installing Sequel instrumentation
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : Finished instrumentation
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 17:58:31 +0200 MacBook-Pro.local (4791)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Environment: development
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : No known dispatcher detected.
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Application: Smart Task API (Development)
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Installing Hanami instrumentation
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Installing Net instrumentation
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Installing Sequel instrumentation
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Finished instrumentation
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 22:42:02 +0200 MacBook-Pro.local (45337)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 22:42:03 +0200 MacBook-Pro.local (45337)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Environment: development
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : No known dispatcher detected.
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Application: Smart Task API (Development)
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Installing Hanami instrumentation
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Installing Net instrumentation
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Installing Sequel instrumentation
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Finished instrumentation
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 22:43:20 +0200 MacBook-Pro.local (45622)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 22:43:21 +0200 MacBook-Pro.local (45622)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Environment: development
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : No known dispatcher detected.
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Application: Smart Task API (Development)
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Installing Hanami instrumentation
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Installing Net instrumentation
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Installing Sequel instrumentation
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Finished instrumentation
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 22:44:55 +0200 MacBook-Pro.local (45770)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Environment: development
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : No known dispatcher detected.
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Application: Smart Task API (Development)
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Installing Hanami instrumentation
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Installing Net instrumentation
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Installing Sequel instrumentation
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Finished instrumentation
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Starting the New Relic agent in "development" environment.
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Reading configuration from config/newrelic.yml (/Users/valikos/sandbox/hanami/smart_task_api)
+[2017-01-04 22:45:33 +0200 MacBook-Pro.local (45878)] INFO : Doing deferred dependency-detection before Rack startup
