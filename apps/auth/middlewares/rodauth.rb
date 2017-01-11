@@ -10,7 +10,7 @@ module Auth
       enable :login, :logout, :jwt, :create_account
 
       jwt_session_hash do
-        super().merge(exp: Time.now.to_i + 15 * 3600)
+        super().merge(exp: SmartTaskApi::Utils.jwt_expiration)
       end
 
       jwt_secret ENV['JWT_SECRET']

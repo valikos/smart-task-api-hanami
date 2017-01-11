@@ -26,7 +26,10 @@ class FacebookLogin
         access_token: @params.get(:access_token)
       }).call
 
-      payload = { account_id: account_id }
+      payload = {
+        account_id: account_id,
+        exp: SmartTaskApi::Utils.jwt_expiration
+      }
 
       @token = JWT.encode(payload, ENV['JWT_SECRET'], ENV['JWT_ALGORITHM'])
     else
