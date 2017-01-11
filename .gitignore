@@ -1,5 +1,6 @@
 /public/assets*
 /tmp
+/log
 pg_*.log
 .env*
 .byebug_history

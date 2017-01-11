@@ -9,14 +9,16 @@ module Auth
     plugin :rodauth, json: :only do
       enable :login, :logout, :jwt, :create_account
 
-      # account_password_hash_column :password_hash
+      jwt_session_hash do
+        super().merge(exp: Time.now.to_i + 15 * 3600)
+      end
 
       jwt_secret ENV['JWT_SECRET']
     end
 
     route do |r|
       r.rodauth
-      rodauth.require_authentication
+
       env['rodauth'] = rodauth
     end
   end
