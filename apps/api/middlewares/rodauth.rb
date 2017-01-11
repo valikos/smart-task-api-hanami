@@ -9,8 +9,6 @@ module Api
     plugin :rodauth, json: :only do
       enable :jwt
 
-      # account_password_hash_column :password_hash
-
       jwt_secret ENV['JWT_SECRET']
     end
 
