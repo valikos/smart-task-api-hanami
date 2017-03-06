@@ -110,45 +110,13 @@ module Api
       # TEMPLATES
       #
 
+      # The layout to be used by all views
+      #
       layout false
 
-      ##
-      # ASSETS
+      # The relative path to templates
       #
-      # assets do
-      #   # JavaScript compressor
-      #   #
-      #   # Supported engines:
-      #   #
-      #   #   * :builtin
-      #   #   * :uglifier
-      #   #   * :yui
-      #   #   * :closure
-      #   #
-      #   # See: http://hanamirb.org/guides/assets/compressors
-      #   #
-      #   # In order to skip JavaScript compression comment the following line
-      #   javascript_compressor :builtin
-
-      #   # Stylesheet compressor
-      #   #
-      #   # Supported engines:
-      #   #
-      #   #   * :builtin
-      #   #   * :yui
-      #   #   * :sass
-      #   #
-      #   # See: http://hanamirb.org/guides/assets/compressors
-      #   #
-      #   # In order to skip stylesheet compression comment the following line
-      #   stylesheet_compressor :builtin
-
-      #   # Specify sources for assets
-      #   #
-      #   sources << [
-      #     'assets'
-      #   ]
-      # end
+      templates 'templates'
 
       ##
       # SECURITY
@@ -270,18 +238,6 @@ module Api
     configure :development do
       # Don't handle exceptions, render the stack trace
       handle_exceptions false
-
-      # Logger
-      # See: http://hanamirb.org/guides/applications/logging
-      #
-      # Logger stream. It defaults to STDOUT.
-      # logger.stream "log/development.log"
-      #
-      # Logger level. It defaults to DEBUG
-      # logger.level :debug
-      #
-      # Logger format. It defaults to DEFAULT
-      # logger.format :default
     end
 
     ##
@@ -290,12 +246,6 @@ module Api
     configure :test do
       # Don't handle exceptions, render the stack trace
       handle_exceptions false
-
-      # Logger
-      # See: http://hanamirb.org/guides/applications/logging
-      #
-      # Logger level. It defaults to ERROR
-      logger.level :error
     end
 
     ##
@@ -306,28 +256,16 @@ module Api
       # host   'example.org'
       # port   443
 
-      # Logger
-      # See: http://hanamirb.org/guides/applications/logging
-      #
-      # Logger stream. It defaults to STDOUT.
-      # logger.stream "log/production.log"
-      #
-      # Logger level. It defaults to INFO
-      logger.level :info
-
-      # Logger format.
-      logger.format :json
-
       assets do
         # Don't compile static assets in production mode (eg. Sass, ES6)
         #
         # See: http://www.rubydoc.info/gems/hanami-assets#Configuration
         compile false
 
-        # Use digest file name for asset paths
+        # Use fingerprint file name for asset paths
         #
         # See: http://hanamirb.org/guides/assets/overview
-        fingerprint  true
+        fingerprint true
 
         # Content Delivery Network (CDN)
         #
@@ -339,7 +277,7 @@ module Api
 
         # Subresource Integrity
         #
-        # See: http://hanamirb.org/guides/assets/subresource-integrity
+        # See: http://hanamirb.org/guides/assets/content-delivery-network/#subresource-integrity
         subresource_integrity :sha256
       end
     end

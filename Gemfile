@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 ruby '~> 2.3.0'
 
-gem 'bundler'
 gem 'rake'
-gem 'hanami',       '~> 0.9'
-gem 'hanami-model', '~> 0.7'
+gem 'hanami',       '1.0.0.beta2'
+gem 'hanami-model', '1.0.0.beta2'
+
 gem 'rodauth'
 gem 'cors'
 gem 'jwt'
@@ -12,8 +12,9 @@ gem 'bcrypt'
 gem 'pg'
 gem 'jsonapi-serializers'
 gem 'rack-cors', require: 'rack/cors'
-gem 'newrelic-hanami', git: 'https://github.com/valikos/newrelic-hanami.git',
-                       branch: 'feature/support-hanami-9'
+# TODO: Wait for stable hanami release
+# gem 'newrelic-hanami', git: 'https://github.com/valikos/newrelic-hanami.git',
+#                        branch: 'feature/support-hanami-9'
 gem 'koala', '~> 2.2'
 
 group :development do

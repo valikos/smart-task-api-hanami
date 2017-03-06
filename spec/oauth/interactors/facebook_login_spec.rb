@@ -1,5 +1,7 @@
 require_relative '../../../apps/oauth/interactors/facebook_login'
 
+JWT_PATTERN = /\A[a-zA-Z0-9\-_]+?\.[a-zA-Z0-9\-_]+?\.[a-zA-Z0-9\-_]+?\z/
+
 RSpec.describe FacebookLogin do
   let(:subject) { described_class.new(params) }
   let(:params) { double('params', valid?: params_status) }
@@ -56,7 +58,7 @@ RSpec.describe FacebookLogin do
     end
 
     it 'returns jwt token' do
-      expect(result.token).to eq 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxfQ.oANjctBnzfY9rD0qwK5qqdezjb1iDp_rIFFkp3AT9w8'
+      expect(result.token).to match(JWT_PATTERN)
     end
   end
 

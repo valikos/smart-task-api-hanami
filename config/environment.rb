@@ -2,48 +2,43 @@ require 'bundler/setup'
 require 'hanami/setup'
 require 'hanami/model'
 require_relative '../lib/smart_task_api'
+# require_relative '../apps/web/application'
 require_relative '../apps/oauth/application'
 require_relative '../apps/auth/application'
 require_relative '../apps/api/application'
 
-DB = Sequel.connect(ENV['DATABASE_URL'])
-
-# This used to be `Hanami::Container.configure`, now it must be `Hanami.configure`
 Hanami.configure do
+  # mount Web::Application,   at: '/'
   mount OAuth::Application, at: '/o'
-  mount Auth::Application, at: '/auth'
-  mount Api::Application,  at: '/api'
+  mount Auth::Application,  at: '/auth'
+  mount Api::Application,   at: '/api'
 
-  # This is a new block
-  #
-  # Cut and paste the contents of `Hanami::Model.configure` from lib/bookshelf.rb
   model do
-
-    # This used to be:
-    #
-    #   adapter type: :sql, url: ENV['DATABASE_URL']
     adapter :sql, ENV['DATABASE_URL']
 
     migrations 'db/migrations'
     schema     'db/schema.sql'
-
-    #
-    # Mapping block isn't supported anymore
-    #
   end
 
-  # This is a new block
-  #
-  # Cut and paste the contents of `Hanami::Mailer.configure` from lib/bookshelf.rb
   mailer do
+    root Hanami.root.join("lib", "smart_task_api", "mailers")
 
-    # Adjust the new layer `root` location
-    root Hanami.root.join("lib", "bookshelf", "mailers")
+    # This has changed. It used to be a block, now it's a setting
+    delivery :test
+  end
 
-    delivery do
-      development :test
-      test        :test
-      # production :smtp, address: ENV['SMTP_PORT'], port: 1025
+  # These two blocks are new.
+  # They MUST be after the general settings like `mount`, `model`, `mailer`.
+  environment :development do
+    # See: http://hanamirb.org/guides/projects/logging
+    logger level: :info
+  end
+
+  environment :production do
+    logger level: :info, formatter: :json
+
+    mailer do
+      delivery :smtp, address: ENV['SMTP_HOST'], port: ENV['SMTP_PORT']
     end
   end
 end
