@@ -4,6 +4,10 @@ class ProjectRepository < Hanami::Repository
     has_many :tasks
   end
 
+  def count
+    projects.count
+  end
+
   def get_tasks(project)
     assoc(:tasks, project).to_a
   end
@@ -18,10 +22,6 @@ class ProjectRepository < Hanami::Repository
 
   def add_task(project, data)
     assoc(:tasks, project).add(data)
-  end
-
-  def count
-    DB[:projects].count
   end
 
   def find_by_account(id, account)
