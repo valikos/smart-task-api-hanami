@@ -29,7 +29,7 @@ describe 'Api', type: :request do
         xhr_patch("/api/projects/#{@project.id}", params, @token)
       end
 
-      it 'creates new project' do
+      it 'updates project' do
         expect(repo.first.title).to eq 'Updated'
       end
     end

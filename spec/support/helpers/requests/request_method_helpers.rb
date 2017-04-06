@@ -16,17 +16,15 @@ module RequestMethodHelpers
   end
 
   def xhr_put(endpoint, params = {}, authorization = nil)
-    # url = if params.length
-    #   "#{endpoint}?#{query_params(params)}"
-    # else
-    #   endpoint
-    # end
-
     put(endpoint, params.to_json, request_headers(auth: authorization))
   end
 
   def xhr_patch(endpoint, params = {}, authorization = nil)
     patch(endpoint, params.to_json, request_headers(auth: authorization))
+  end
+
+  def xhr_delete(endpoint, authorization = nil)
+    delete(endpoint, {}.to_json, request_headers(auth: authorization))
   end
 
   private
