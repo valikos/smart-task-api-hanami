@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-ruby '2.4.0'
+ruby '2.4.1'
 
 gem 'rake'
-gem 'hanami',       '1.0.0.beta3'
-gem 'hanami-model', '1.0.0.beta3'
+gem 'hanami',       '1.0.0'
+gem 'hanami-model', '1.0.0'
 
 gem 'rodauth'
 gem 'cors'
